@@ -5,7 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
 </head>
+<style>
+    table, th, td {
+      border:1px solid black;
+      
+    }
+    table {
+        margin-bottom: 30px;
+    }
+    .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+    </style>
 <body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="about.html">About</a>
+      </div>
+      
+      <div>
     <h1> Andy's Demo Portfolio </h1> 
     <img src="andy.jpeg" alt="self-portrait" /> 
     <h2> PROJECTS </h2>
@@ -21,7 +61,66 @@
     <a href="mailto:andydanielsojakka@gmail.com?Subject=Hello%20again" target="_top">
     andydanielsojakka@gmail.com</a>
     </p>
-    <a href="about.html">MORE ABOUT ME!</a>
+
+    <h2>COURSES TAKEN</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Name of module</th>
+    <th>Skill level from 1-5</th>
+   
+  </tr>
+  <tr>
+    <td>Web Development with HTML & CSS</td>
+    <td>5</td>
     
+  </tr>
+  <tr>
+    <td>Advanced HTML & CSS</td>
+    <td>5</td>
+   
+  </tr>
+  <tr>
+    <td>Flexbox, Grid, & Bootstrap</td>
+    <td>4</td>
+   
+  </tr>
+  <tr>
+    <td>JavaScript for Front-End</td>
+    <td>3</td>
+   
+  </tr>
+  <tr>
+    <td>Front-End Tools & Portfolio</td>
+    <td>3</td>
+   
+  </tr>
+  <tr>
+    <td>JavaScript Programming Bootcamp</td>
+    <td>3</td>
+   
+  </tr>
+  <tr>
+    <td>JavaScript Development with Node, Express, & MongoDB</td>
+    <td>2</td>
+   
+  </tr>
+  <tr>
+  <td>React Development Bootcamp</td>
+  <td>1</td>
+ 
+</tr>
+<tr>
+    <td>Web Development Portfolio & Industry</td>
+    <td>1</td>
+   
+  </tr>
+</table>
+
+    <a href="about.html">LEARN MORE ABOUT ME!</a>
+<footer>
+        <p>Author: Andy Sojakka</p>
+        <p><a href="mailto:andydanielsojakka@gmail.com">andydanielsojakka@gmail.com</a></p>
+</footer>
 </body>
 </html>
